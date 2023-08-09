@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>planets</title>
+    <style>
+        *{
+            list-style: none ;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{   
+            background-image: url(./assets/Space\ galaxy.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;  
+        }
+        header{
+            position : fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding:10px 100px;
+            background-color:midnightblue;
+            display: flex;
+            justify-content: space-between;        
+        }
+        .logo{
+            font-size: 40px;
+            font-weight:bold;
+            color:aliceblue;
+            cursor: pointer;
+            
+        }
+        nav li{
+            
+            display: inline-block;
+            padding: 0px 10px;
+            align-items: center;
+            
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            color: aliceblue;
+            cursor:pointer;
+        }
+        nav li a:hover{
+            color: aqua;
+            transition: all 0.8s ease 0s;
+        }
+        h1{
+            color: aliceblue;
+        }
+        p{
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+     <div>
+    <header class="header">
+        <div class="logo">
+            <p style="font-family:monospace;">SolarSystem</p>
+        </div>
+       
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="planets.html">Planets</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+   
+    <marquee scrollamount="10" direction="left">
+    <a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" target="_blank"><img src="./assets/jupiter_new.png" alt="jupiter" > </a> 
+     <a href="https://solarsystem.nasa.gov/planets/earth/overview/" target="_blank"><img src="./assets/earth.png" alt="earth"></a> 
+      <a href="https://solarsystem.nasa.gov/planets/mercury/overview/" target="_blank" > <img src="./assets/mercury_new.png" alt="mercury"></a>
+       <a href="https://solarsystem.nasa.gov/planets/mars/overview/" target="_blank"> <img src="./assets/mars.png" alt="mars"></a>
+       <a href="https://solarsystem.nasa.gov/planets/venus/overview/" target="_blank"> <img src="assets/venus_jg.png" alt="venus"></a>
+        <a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank"><img src="./assets/saturn.png" alt="saturn"></a>
+       <a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank"><img src="./assets/uranus.png" alt="uranus"></a>
+       <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank"></a> <<img src="./assets/neptune.png" alt="neptune"></a>
+        <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank"></a><img src="./assets/earth_moon.png" alt="moon"></a>
+    </marquee>
+
+  </div>  
+</body>
+</html>
